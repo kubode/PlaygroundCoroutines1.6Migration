@@ -51,7 +51,7 @@ expect fun currentThreadName(): String
 @RunWith(AndroidJUnit4::class)
 class CommonGreetingTest {
 
-//    @Test
+    @Test
     fun testKtor() = runTest {
         val client = HttpClient(MockEngine) {
             engine {
